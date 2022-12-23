@@ -11,6 +11,7 @@ const { EmbedBuilder } = require("discord.js")
 
 dotenv.config()
 const TOKEN = process.env.TOKEN
+console.log(TOKEN);
 
 const LOAD_SLASH = process.argv[2] == "load"
 
